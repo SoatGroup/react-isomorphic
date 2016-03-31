@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+	<head>
+		<meta charset="utf-8" />
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+		<script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+
+	<body>
+		<div class="container">
+			<div id="product-parent"><%- component %></div>
+		</div>
+
+		<script id='context' type='application/json'>
+    		<%= context %>
+  		</script>
+		<script src="/js/ProductListClient.bundle.js"></script>
+	</body>
+
+</html>
