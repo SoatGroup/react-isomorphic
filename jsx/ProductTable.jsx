@@ -32,7 +32,7 @@ class ProductTable extends React.Component {
   	createProductNotFoundAlert() {
   		return (
  				<div className="alert alert-info">
- 					<strong>Aucun fruit trouvé !</strong>
+ 					<strong>Aucun produit trouvé !</strong>
  				</div>
  			)
   	}
