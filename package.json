@@ -28,6 +28,7 @@
     "browserify": "^13.0.0",
     "connect-livereload": "^0.5.4",
     "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
     "gulp-express": "^0.3.5",
     "gulp-plumber": "^1.1.0",
     "vinyl-buffer": "^1.0.0",
